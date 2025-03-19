@@ -10,6 +10,7 @@ public class AppGamingBasic {
 
 //        var game=new SuperContra();
         var game=new PacMan();
+
         var gameRunner=new GameRunner(game);
 
         gameRunner.run();
